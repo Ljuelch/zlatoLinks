@@ -10,7 +10,7 @@ $(document).ready(function (){
 		duration: 1500 // global
 	});
 	
-	let list = $(".sec3-slider");
+	let list = $(".sec2-slider");
 	let list_block;
 	let text_block;
 	let streaming_services_block;
@@ -33,7 +33,7 @@ $(document).ready(function (){
 		streaming_services_block.append('<div class="apple-logo"><a class="apple-text" target="_blank" href="'+ songList[key].apple +'"><div class="apple-logo1"><br>Apple Music</div></a></div>');
 	}
 
-	$('.sec3-slider').slick({
+	$('.sec2-slider').slick({
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 3,

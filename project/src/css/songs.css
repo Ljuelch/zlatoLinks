@@ -1,0 +1,127 @@
+.sec2 .container .sec2-inner .sec2-slider .item {
+    transition: all ease 0.5s 0s;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item:hover {
+    transform: scale(.95);
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text {
+    display: none;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item:hover .image {
+    opacity: 20%;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text {
+    text-align: center;
+    justify-content: center;
+    margin: -65% 0 0 0;
+    color: #fff;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item:hover .text {
+    display: block;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item:hover .text p {
+    margin-top: 5px;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .spotify-logo1:before {
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f1bc";
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .apple-logo1:before {
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f001";
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .spotify-logo .spotify-text {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .apple-logo .apple-text {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .spotify-logo {
+    z-index: 1;
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f1bc";
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .apple-logo {
+    z-index: 1;
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f001";
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .spotify-logo .spotify-text:hover {
+    color: #1fdf64;
+}
+
+.sec2 .container .sec2-inner .sec2-slider .item .text .streaming-services .apple-logo .apple-text:hover {
+    color: #fa586a;
+}
+
+.sec2 .item img {
+    max-height: 400px;
+    width: 390px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.sec2 {
+    padding: 60px 0 0;
+}
+.sec2 h2 {
+    text-transform: uppercase;
+    max-width: 60%;
+    font-weight: 100;
+}
+.sec2-slider {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.slick-slide {
+    height: 100%;
+}
+
+.sec2-slider {
+    max-height: 400px;
+}
+
+.slick-slide, .slick-current, .slick-active {
+    max-height: 400px;
+}
+
+.slick-prev:before {
+    font-family: FontAwesome, sans-serif;
+    content: "\f053";
+}
+.slick-next:before {
+    font-family: FontAwesome, sans-serif;
+    content: "\f054";
+}
