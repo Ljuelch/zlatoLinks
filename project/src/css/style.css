@@ -194,6 +194,90 @@ header ul li a {
     background: linear-gradient(to left, transparent, #fff, transparent);
 }
 
+.sec3 .container .sec3-inner .sec3-slider .item {
+    transition: all ease 0.5s 0s;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item:hover {
+    transform: scale(.95);
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text {
+    display: none;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item:hover .image {
+    opacity: 20%;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text {
+    text-align: center;
+    justify-content: center;
+    margin: -65% 0 0 0;
+    color: #fff;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item:hover .text {
+    display: block;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item:hover .text p {
+    margin-top: 5px;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .spotify-logo1:before {
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f1bc";
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .apple-logo1:before {
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f001";
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .spotify-logo .spotify-text {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .apple-logo .apple-text {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .spotify-logo {
+    z-index: 1;
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f1bc";
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .apple-logo {
+    z-index: 1;
+    font-size: x-large;
+    font-family: FontAwesome, sans-serif;
+    content: "\f001";
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .spotify-logo .spotify-text:hover {
+    color: green;
+}
+
+.sec3 .container .sec3-inner .sec3-slider .item .text .streaming-services .apple-logo .apple-text:hover {
+    color: #fa586a;
+}
+
 .sec3 .item img {
     max-height: 400px;
     width: 390px;
