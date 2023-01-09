@@ -19,7 +19,20 @@
     <link rel="stylesheet" href="src/css/landing.css">
     <link rel="stylesheet" href="src/css/textarea.css">
     <link rel="stylesheet" href="src/css/songs.css">
+    <link rel="stylesheet" href="src/css/videos.css">
     <link rel="stylesheet" href="src/css/footer.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="src/js/songs/songSlide.js"></script>
+    <script src="src/js/songs/songData.js"></script>
+    <script src="src/js/videos/videoData.js"></script>
+    <script src="src/js/videos/videoSlide.js"></script>
+
+    <script src="src/js/style.js"></script>
 </head>
 <body>
 
@@ -71,11 +84,22 @@
         </div>
     </section>
 
+    <section class="secVid" data-scene>
+        <div class="container">
+            <div class="secVid-inner" data-aos="zoom-out-left">
+                <h2>Musikvideos</h2>
+                <div class="video-box"></div>
+                <div class="secVid-slider videos">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="sec2" data-scene>
         <div class="container">
             <div class="sec2-inner" data-aos="zoom-out-left">
                 <h2>Music</h2>
-                <div class="sec2-slider">
+                <div class="sec2-slider songs">
                 </div>
             </div>
         </div>
@@ -121,14 +145,6 @@
     </div>
 
 </main>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script src="src/js/data.js"></script>
-<script src="src/js/style.js"></script>
-
 
 </body>
 </html>
