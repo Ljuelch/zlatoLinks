@@ -1,26 +1,31 @@
+const VIDEO_ID_PREFIX = "youtubeVideo-"
+
 $(document).ready(()=>{
-    const videoContainer = $(".videos")
+    const imageContainer = $(".videos"),
+          videoContainer = $(".video-box")
 
     for (const id in videos) {
-        const listBlock = $('<div class="item vid"></div>')
-        const itemBlock = $(`<div class="image"><img alt data-id="${id}" class="link-id" src="${videos[id].image}"></div>`)
+        imageContainer.append(`
+            <div class="item vid">
+                <div class="image">
+                    <img alt data-id="${id}" class="link-id" src="${videos[id].image}">
+                </div>
+            </div>
+        `)
 
-        videoContainer.append(listBlock)
-        listBlock.append(itemBlock)
+        const video = $(videos[id].video)
+              video.addClass("youtubeVideo")
+              video.attr("id", VIDEO_ID_PREFIX + id)
+              video.hide()
+        videoContainer.append(video)
     }
 
-    const videoBox = $(".video-box")
-    videoBox.append(videos[1].video)
-
     $(".link-id").click(event=>{
-        videoBox.empty()
-        videoBox.append(
-            videos[
-                $(event.currentTarget).data("id")
-            ].video)
+        $(".youtubeVideo").hide()
+        $(`.youtubeVideo#${VIDEO_ID_PREFIX}${event.currentTarget.dataset.id}`).show()
     })
 
-    videoContainer.slick({
+    imageContainer.slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 3,
@@ -28,4 +33,5 @@ $(document).ready(()=>{
         adaptiveHeight: false,
     })
 
+    $(`.youtubeVideo#${VIDEO_ID_PREFIX}0`).show()
 })
