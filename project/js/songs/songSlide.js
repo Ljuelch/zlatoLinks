@@ -5,7 +5,7 @@ $(document).ready(()=>{
         songContainer.append(`
             <div class="item">
                 <div class="image">
-                    <img alt="" src="src/assets/${song.image}">
+                    <img alt="" src="assets/${song.image}">
                 </div>
                 <div class="text">
                     <h3>${song.title}</h3>
