@@ -1,45 +1,26 @@
-
 $(document).ready(()=>{
+    const videoContainer = $(".videos")
 
-    let list = $(".videos")
-    let vidBox = $(".video-box")
+    for (const id in videos) {
+        const listBlock = $('<div class="item vid"></div>')
+        const itemBlock = $(`<div class="image"><img alt data-id="${id}" class="link-id" src="${videos[id].image}"></div>`)
 
-    let list_block
-    let item_block
-    
-    for (let key in videoList) {
-        list_block = $('<div class="item vid"></div>')
-        item_block = $('<div class="image"><img data-wow="'+ videoList[key].dataKey +'" class="link-id" alt="" src="'+ videoList[key].image +'"></div>')
-
-        list.append(list_block)
-        list_block.append(item_block)
+        videoContainer.append(listBlock)
+        listBlock.append(itemBlock)
     }
 
-    vidBox.append(videoList[1].video)
-    let image = $(".link-id")
+    const videoBox = $(".video-box")
+    videoBox.append(videos[1].video)
 
-    let src
-    let wowID
-
-    Array.from(image).forEach(element => {
-
-        element.addEventListener('click', () => {
-            wowID = element.dataset.wow
-
-            for (let id in videoList) {
-                src = image[parseInt(wowID)].currentSrc
-                if (videoList[id].image === src) {
-                    vidBox.empty()
-                    vidBox.append(videoList[id].video)
-                }
-            }
-
-        })
-
+    $(".link-id").click(event=>{
+        videoBox.empty()
+        videoBox.append(
+            videos[
+                $(event.currentTarget).data("id")
+            ].video)
     })
 
-
-    $('.videos').slick({
+    videoContainer.slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 3,
