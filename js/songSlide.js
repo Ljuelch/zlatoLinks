@@ -17,7 +17,7 @@ $.getJSON("data/songs.json").done(
         songContainer.append(`
             <div class="item">
                 <div class="image">
-                    <img alt="" src="assets/${song.image}">
+                    <img alt src="assets/img/${song.image}">
                 </div>
                 <div class="text">
                     <h3>${song.title}</h3>
