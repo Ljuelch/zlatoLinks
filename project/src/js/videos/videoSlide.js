@@ -1,5 +1,5 @@
 
-$(document).ready(function (){
+$(document).ready(()=>{
 
     let list = $(".videos");
     let vidBox = $(".video-box")

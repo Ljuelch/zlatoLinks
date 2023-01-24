@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(()=>{
 
     let list = $(".songs");
     let list_block;

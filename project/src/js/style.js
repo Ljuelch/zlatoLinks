@@ -1,6 +1,6 @@
-$(document).ready(function (){
+$(document).ready(()=>{
 
-	$(".go-to").click(function() {
+	$(".go-to").click(()=>{
 		$('html, body').animate({
 			scrollTop: $("#page-content").offset().top
 		}, 2000);
