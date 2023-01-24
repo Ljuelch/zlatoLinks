@@ -1,6 +1,15 @@
 const VIDEO_ID_PREFIX = "youtubeVideo-"
 
-$(document).ready(()=>{
+$.getJSON("data/videos.json").done(
+    /**
+     * @param {{
+     *     image: string,
+     *     video: string
+     * }[]} videos
+     */
+    async videos => {
+    await new Promise(resolve => $(document).ready(resolve))
+
     const imageContainer = $(".videos"),
           videoContainer = $(".video-box")
 

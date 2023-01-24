@@ -1,4 +1,16 @@
-$(document).ready(()=>{
+$.getJSON("data/songs.json").done(
+    /**
+     * @param {{
+     *     image: string,
+     *     title: string,
+     *     artists: string,
+     *     spotify: string,
+     *     apple: string
+     * }[]} songs
+     */
+    async songs => {
+    await new Promise(resolve => $(document).ready(resolve))
+
     const songContainer = $(".songs")
 
     for (const song of songs)
