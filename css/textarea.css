@@ -17,27 +17,14 @@
 .sec1 .text {
     width: 47%;
 }
-.sec1 .text-left {
-    /*text-align: right;*/
-}
+
 .sec1 .text-right {
     text-align: center;
 }
-/*.sec1:before {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 1px;*/
-/*    background: linear-gradient(to left, transparent, #fff, transparent);*/
-/*}*/
-/*.sec1:after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 1px;*/
-/*    background: linear-gradient(to left, transparent, #fff, transparent);*/
-/*}*/
+
+
+@media (max-width: 1200px) {
+    .landing-text{
+        display: none;
+    }
+}

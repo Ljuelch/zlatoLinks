@@ -44,8 +44,8 @@ $.getJSON("data/songs.json").done(
 
     $('.sec2-slider').slick({
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         speed: 1500,
         adaptiveHeight: false,
     })

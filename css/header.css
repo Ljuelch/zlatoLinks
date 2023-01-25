@@ -3,11 +3,15 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    z-index: 999;
+}
+
+.navbar-align {
     display: flex;
     justify-content: space-between;
+    padding: 30px 100px;
     align-items: center;
-    z-index: 999;
+    min-width: -webkit-fill-available;
 }
 
 header ul {
@@ -20,8 +24,28 @@ header ul li {
     margin: 0 20px;
 }
 
+@media (max-width: 640px) {
+    .nav-items {
+        display: table-cell;
+        vertical-align: middle;
+        width: 110px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 header ul li a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+nav {
+    --bs-bg-opacity: 0 !important;
+}
+
+.ham-btn {
+    border: 1px solid white!important;
+    color: white!important;
 }

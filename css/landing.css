@@ -40,3 +40,20 @@
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+.mobile-title {
+    line-height: 80px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.mobile-media {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .mobile-media {
+        display: block;
+    }
+}
