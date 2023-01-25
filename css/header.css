@@ -12,6 +12,7 @@ header {
     padding: 30px 100px;
     align-items: center;
     min-width: -webkit-fill-available;
+    min-width: -moz-available;
 }
 
 header ul {
