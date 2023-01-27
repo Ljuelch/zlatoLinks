@@ -88,8 +88,8 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .sec2 {
@@ -103,6 +103,15 @@
 @media (max-width: 1200px) {
     .sec2 h2 {
         text-align: center;
+    }
+    .image {
+        max-width: 200px;
+    }
+    .slick-slide, .slick-current, .slick-active {
+        max-width: 523px;
+    }
+    .sec2 .container .sec2-inner .sec2-slider .item .text {
+        max-width: 392px;
     }
 }
 

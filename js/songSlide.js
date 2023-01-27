@@ -42,11 +42,40 @@ $.getJSON("data/songs.json").done(
             </div>
         `)
 
+
+
     $('.sec2-slider').slick({
         infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         speed: 1500,
         adaptiveHeight: false,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
+                    speed: 1500,
+                    adaptiveHeight: false,
+                    mobileFirst:true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     })
 })
