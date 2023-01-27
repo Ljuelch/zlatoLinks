@@ -105,10 +105,10 @@
         text-align: center;
     }
     .image {
-        max-width: 200px;
+        max-width: 392px;
     }
-    .slick-slide, .slick-current, .slick-active {
-        max-width: 523px;
+    .item .slick-slide .slick-current .slick-active {
+        max-width: 0;
     }
     .sec2 .container .sec2-inner .sec2-slider .item .text {
         max-width: 392px;
