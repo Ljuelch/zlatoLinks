@@ -31,3 +31,17 @@ h3 {
     max-width: 1166px;
     margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+    footer .container {
+        max-width: 1100px!important;
+    }
+}
+
+.container-footer {
+    max-width: 1100px;
+    margin: 0 auto;
+}

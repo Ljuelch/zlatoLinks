@@ -33,9 +33,30 @@
 }
 .secVid h2 {
     text-transform: uppercase;
-    max-width: 60%;
     font-weight: 100;
 }
+
+@media (max-width: 1200px) {
+    .secVid .container .secVid-inner h2 {
+        text-align: center;
+    margin-bottom: 0!important;
+    }
+    .video-box {
+        height: 300px!important;
+    }
+    .video-container-helper {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .video-box {
+        margin-top: 30px!important;
+        height: 250px!important;
+    }
+    .secVid-slider {
+        margin-top: 0px!important;
+    }
+}
+
 .secVid-slider {
     margin-top: 40px;
 }

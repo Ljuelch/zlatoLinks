@@ -1,6 +1,6 @@
 .banner {
     height: 100vh;
-    background: url("../assets/background.jpg") no-repeat;
+    background: url("../assets/img/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -39,4 +39,21 @@
     line-height: 80px;
     font-weight: 300;
     margin-bottom: 10px;
+}
+
+.mobile-title {
+    line-height: 80px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.mobile-media {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .mobile-media {
+        display: block;
+    }
 }

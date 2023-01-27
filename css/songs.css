@@ -88,8 +88,8 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .sec2 {
@@ -97,9 +97,24 @@
 }
 .sec2 h2 {
     text-transform: uppercase;
-    max-width: 60%;
     font-weight: 100;
 }
+
+@media (max-width: 1200px) {
+    .sec2 h2 {
+        text-align: center;
+    }
+    .image {
+        max-width: 392px;
+    }
+    .item .slick-slide .slick-current .slick-active {
+        max-width: 0;
+    }
+    .sec2 .container .sec2-inner .sec2-slider .item .text {
+        max-width: 392px;
+    }
+}
+
 .sec2-slider {
     margin-top: 40px;
     margin-bottom: 60px;
