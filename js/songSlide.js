@@ -55,27 +55,35 @@ $.getJSON("data/songs.json").done(
                 breakpoint: 1200,
                 settings: {
                     infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 2,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
                     speed: 1500,
                     adaptiveHeight: false,
                     mobileFirst:true,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 1119,
                 settings: {
+                    infinite: true,
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1,
+                    speed: 1500,
+                    adaptiveHeight: false,
+                    mobileFirst:true,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 740,
                 settings: {
+                    infinite: true,
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    speed: 1500,
+                    adaptiveHeight: false,
+                    mobileFirst:true,
                 }
-            }
+            },
         ]
     })
 })

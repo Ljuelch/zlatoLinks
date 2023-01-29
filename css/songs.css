@@ -101,19 +101,137 @@
 }
 
 @media (max-width: 1200px) {
+    .slick-track {
+        translate3d(-1021px, 0px, 0px)!important;
+    }
     .sec2 h2 {
         text-align: center;
     }
-    .image {
-        max-width: 200px;
+    .sec2 .item img {
+        max-height: 300px;
+        width: 300px;
     }
-    .slick-slide, .slick-current, .slick-active {
-        max-width: 523px;
+    .sec2 .text {
+        width: 300px;
+        margin: -75% 0 0 0!important;
     }
-    .sec2 .container .sec2-inner .sec2-slider .item .text {
-        max-width: 392px;
+    .streaming-services .spotify-logo, .apple-logo{
+        font-size: smaller!important;
+    }
+    .slick-track {
+        transform: translate3d(-1030px, 0px, 0px)!important;
     }
 }
+
+@media (max-width: 1171px) {
+    .slick-track {
+        transform: translate3d(-1008px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 1145px) {
+    .slick-track {
+        transform: translate3d(-885px, 0px, 0px)!important;
+    }
+}
+@media (max-width: 1024px) {
+    .slick-track {
+        transform: translate3d(-816px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 951px) {
+    .slick-track {
+        transform: translate3d(-740px, 0px, 0px)!important;
+    }
+}
+@media (max-width: 847px) {
+    .slick-track {
+        transform: translate3d(-677px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 780px) {
+    .slick-track {
+        transform: translate3d(-640px, 0px, 0px)!important;
+    }
+}
+@media (max-width: 740px) {
+    .slick-track {
+        transform: translate3d(-468px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 690px) {
+    .sec2-inner {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .slick-track {
+        transform: translate3d(-441px, 0px, 0px)!important;
+    }
+    .sec2 .text {
+        width: 300px;
+        margin: -40% 0 0 0!important;
+    }
+}
+
+@media (max-width: 600px) {
+    .sec2 .text {
+        width: 300px;
+        margin: -45% 0 0 0!important;
+    }
+    .slick-track {
+        transform: translate3d(-407px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 540px) {
+    .slick-track {
+        transform: translate3d(-377px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .sec2 .text {
+        width: 300px;
+        margin: -55% 0 0 0!important;
+    }
+    .slick-track {
+        transform: translate3d(-375px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 446px) {
+    .slick-track {
+        transform: translate3d(-326px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .sec2 .text {
+        width: 300px;
+        margin: -70% 0 0 0!important;
+    }
+    .slick-track {
+        transform: translate3d(-301px, 0px, 0px)!important;
+    }
+}
+
+@media (max-width: 390px) {
+    .slick-track {
+        transform: translate3d(-314px, 0px, 0px)!important;
+    }
+}
+@media (max-width: 360px) {
+    .slick-track {
+        transform: translate3d(-300px, 0px, 0px)!important;
+    }
+}
+
+
 
 .sec2-slider {
     margin-top: 40px;
