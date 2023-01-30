@@ -245,6 +245,13 @@
     }
 }
 
+@media (max-width: 415px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 346px!important;
+    }
+}
+
 @media (max-width: 381px) {
     .sec2 .item img {
         max-height: 480px;
