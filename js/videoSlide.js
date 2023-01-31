@@ -30,7 +30,7 @@ $.getJSON("data/videos.json").done(
     }
 
     $(".link-id").click(event=>{
-        $(".youtubeVideo").hide()
+        $(".youtubeVideo").remove()
         $(`.youtubeVideo#${VIDEO_ID_PREFIX}${event.currentTarget.dataset.id}`).show()
     })
 
