@@ -106,6 +106,9 @@
         max-height: 480px;
         width: 330px;
     }
+    .sec2 h2 {
+        text-align: center;
+    }
 }
 
 @media (max-width: 1110px) {

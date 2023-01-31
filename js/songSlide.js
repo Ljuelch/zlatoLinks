@@ -57,7 +57,7 @@ $.getJSON("data/songs.json").done(
                     infinite: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    speed: 1500,
+                    speed: 900,
                     adaptiveHeight: false,
                     mobileFirst:true,
                 }
@@ -68,7 +68,7 @@ $.getJSON("data/songs.json").done(
                     infinite: true,
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    speed: 1500,
+                    speed: 800,
                     adaptiveHeight: false,
                     mobileFirst:true,
                 }
@@ -79,7 +79,7 @@ $.getJSON("data/songs.json").done(
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    speed: 1500,
+                    speed: 600,
                     adaptiveHeight: false,
                     mobileFirst:true,
                 }

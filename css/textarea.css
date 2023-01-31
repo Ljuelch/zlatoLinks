@@ -1,6 +1,6 @@
 .sec1 {
     position: relative;
-    padding: 80px 0;
+    padding-top: 40px;
 }
 .sec1 h3 {
     text-transform: uppercase;
@@ -24,7 +24,7 @@
 
 
 @media (max-width: 1200px) {
-    .landing-text{
+    .banner .landing-text{
         display: none;
     }
 }
