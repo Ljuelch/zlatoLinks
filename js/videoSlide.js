@@ -22,6 +22,15 @@ $.getJSON("data/videos.json").done(
             </div>
         `)
 
+        stopAllYouTubeVideos = () => {
+            let iframes = document.querySelectorAll('iframe');
+            Array.prototype.forEach.call(iframes, iframe => {
+                iframe.contentWindow.postMessage(JSON.stringify({ event: 'command',
+                    func: 'stopVideo' }), '*');
+            });
+        }
+
+
         const video = $(videos[id].video)
               video.addClass("youtubeVideo")
               video.attr("id", VIDEO_ID_PREFIX + id)
@@ -30,6 +39,7 @@ $.getJSON("data/videos.json").done(
     }
 
     $(".link-id").click(event=>{
+        stopAllYouTubeVideos();
         $(".youtubeVideo").hide()
         $(`.youtubeVideo#${VIDEO_ID_PREFIX}${event.currentTarget.dataset.id}`).show()
     })
