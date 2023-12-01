@@ -74,7 +74,7 @@ $.getJSON("data/songs.json").done(
                 }
             },
             {
-                breakpoint: 447,
+                breakpoint: 450,
                 settings: {
                     infinite: true,
                     slidesToShow: 1,

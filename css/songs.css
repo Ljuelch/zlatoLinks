@@ -120,7 +120,7 @@
         max-width: 280px;
     }
     .sec2 .text p {
-      font-size: smaller;
+        font-size: smaller;
     }
     .sec2 .item .streaming-services {
         margin-top: 2rem!important;
@@ -225,7 +225,7 @@
     }
 }
 
-@media (max-width: 446px) {
+@media (max-width: 449px) {
     .sec2 .item img {
         max-height: 480px;
         width: 326px;
@@ -248,10 +248,48 @@
     }
 }
 
-@media (max-width: 415px) {
+
+
+@media (max-width: 449px) {
     .sec2 .item img {
         max-height: 480px;
-        width: 346px!important;
+        width: 359px!important;
+    }
+}
+
+@media (max-width: 416px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 340px!important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 330px!important;
+    }
+}
+
+@media (max-width: 384px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 300px!important;
+    }
+}
+
+@media (max-width: 352px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 293px!important;
+    }
+}
+
+@media (max-width: 352px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 273px!important;
     }
 }
 
@@ -278,6 +316,20 @@
     .sec2 .item img {
         max-height: 480px;
         width: 300px;
+    }
+}
+
+@media (max-width: 321px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 258px!important;
+    }
+}
+
+@media (max-width: 304px) {
+    .sec2 .item img {
+        max-height: 480px;
+        width: 240px!important;
     }
 }
 

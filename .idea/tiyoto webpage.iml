@@ -15,5 +15,7 @@
     <orderEntry type="library" name="rolly.js" level="application" />
     <orderEntry type="library" name="aos" level="application" />
     <orderEntry type="library" name="w3" level="application" />
+    <orderEntry type="library" name="tether" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1.slim" level="application" />
   </component>
 </module>

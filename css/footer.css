@@ -60,3 +60,7 @@ footer:after {
 .copyright p {
     font-size: 14px;
 }
+
+.modal-content {
+    background-color: grey!important;
+}

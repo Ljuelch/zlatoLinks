@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{aos, font-awesome, jquery, rolly.js, slick, slick-carousel, w3}" />
+    <file url="PROJECT" libraries="{aos, font-awesome, jquery, jquery-3.2.1.slim, rolly.js, slick, slick-carousel, tether, w3}" />
   </component>
 </project>
