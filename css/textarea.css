@@ -52,6 +52,13 @@
     text-align: center;
 }
 
+.presave a{
+    color: inherit;
+}
+
+.presave a:hover{
+    opacity: 0.8;
+}
 
 @media (max-width: 1200px) {
     .banner .landing-text{
