@@ -22,9 +22,63 @@
     text-align: center;
 }
 
+.grb-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.next-up-pic {
+    max-width: 400px;
+    height: auto;
+}
+
+.next-up-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-3 {
+    width: 50%;
+    float: left;
+}
+
+.col-3-text {
+    width: 50%;
+    float: right;
+}
+
+.pic-container {
+    text-align: center;
+}
+
 
 @media (max-width: 1200px) {
     .banner .landing-text{
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-3,
+    .col-3-text {
+        width: 80%; /* Make both elements take full width */
+        float: none; /* Remove float to stack them vertically */
+    }
+    .next-up-pic {
+        max-width: 300px;
+        height: auto;
+    }
+    .grb-logo {
+        display: none;
+    }
+    .sec1 {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .secVid h2 {
+        text-align: center;
     }
 }
