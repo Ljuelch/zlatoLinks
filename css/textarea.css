@@ -62,8 +62,8 @@
 @media (max-width: 768px) {
     .col-3,
     .col-3-text {
-        width: 80%; /* Make both elements take full width */
-        float: none; /* Remove float to stack them vertically */
+        width: 80%;
+        float: none;
     }
     .next-up-pic {
         max-width: 300px;
