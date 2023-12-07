@@ -60,6 +60,22 @@
     opacity: 0.8;
 }
 
+.out-now-hover-spotify:hover {
+    color: #1fdf64;
+}
+
+.out-now-hover-apple:hover {
+    color: #fa586a;
+}
+
+.out-now-hover-deezer:hover {
+    color: rgb(225 90 52);
+}
+
+.out-now-hover-youtube:hover {
+    color: rgb(225 0 0);
+}
+
 @media (max-width: 1200px) {
     .banner .landing-text{
         display: none;
