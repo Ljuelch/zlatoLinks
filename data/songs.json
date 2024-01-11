@@ -1,6 +1,11 @@
 [
 	{
-
+		"image": "runnerSoon.jpg",
+		"title": "Runner",
+		"artists": "zlato1.5",
+		"spotify": "https://open.spotify.com/intl-de/track/2VEfCkfozyH28doZbgX4Pw?si=415326be8277481b",
+		"apple": "https://music.apple.com/us/album/runner/1719198802?i=1719198804"
+	},{
 		"image": "26soGut.jpg",
 		"title": "So gut",
 		"artists": "zlato1.5, Tiyoto, Sketchy Timo",
