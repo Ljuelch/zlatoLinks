@@ -1,5 +1,11 @@
 [
 	{
+		"image": "brb-cover.jpg",
+		"title": "BRB",
+		"artists": "zlato1.5",
+		"spotify": "https://open.spotify.com/intl-de/track/3vA7cVbFjyrOkJEFPfe8rQ?si=f8312db2a95b4d0a",
+		"apple": "https://music.apple.com/us/album/brb/1724092060?i=1724092061"
+	},{
 		"image": "runnerSoon.jpg",
 		"title": "Runner",
 		"artists": "zlato1.5",
